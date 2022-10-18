@@ -1,0 +1,27 @@
+{
+  "name": "web3_auth_module",
+  "version": "0.3.6",
+  "description": "",
+  "main": "dist/wallet.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alhaqhassan/web3_auth_module.git"
+  },
+  "author": "Ahmad Hassan Ansari",
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^3.5.3",
+    "@walletconnect/web3-provider": "^1.7.0",
+    "web3modal": "^1.9.9"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "rollup-plugin-polyfill-node": "^0.10.2",
+    "vite": "^3.1.0",
+    "vite-plugin-vue2": "^2.0.2"
+  }
+}
