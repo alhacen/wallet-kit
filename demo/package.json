@@ -1,0 +1,24 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "wallet-kit": "git://github.com/alhaqhassan/wallet-kit"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "rollup-plugin-polyfill-node": "^0.10.2",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.0",
+    "vite-plugin-vue2": "^2.0.2"
+  }
+}
