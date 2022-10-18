@@ -1,7 +1,7 @@
 import Vue from "vue";
 import "./style.css";
 import App from "./App.vue";
-import { authPlugin } from "wallet-kit";
+import { authPlugin } from "@alhaqhassan/wallet-kit";
 Vue.use(authPlugin, {
     networks: {
         mainnet: {

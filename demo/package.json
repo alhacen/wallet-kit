@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^2.6.12",
-    "wallet-kit": "git://github.com/alhaqhassan/wallet-kit"
+    "@alhaqhassan/wallet-kit": "^0.3.6",
+    "vue": "^2.6.12"
   },
   "devDependencies": {
     "@originjs/vite-plugin-commonjs": "^1.0.3",
